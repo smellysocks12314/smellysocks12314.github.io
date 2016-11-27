@@ -1,0 +1,109 @@
+
+.parallax {
+    position: fixed;
+}
+
+.bottom {
+    /* YOUR CODE HERE */
+    position: relative;
+    top: 500px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* other styles below */
+.parallax {
+    /* other styling */
+    height: 500px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/milkyway.jpg);
+    background-size: 100%;
+
+}
+
+
+ .container {
+    margin: 0 auto;
+    width: 100%;
+}
+.content {
+    background: #eee;
+    height: 1200px;
+    line-height: 24px;
+    padding: 20px 35px;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-family: 'Coming Soon', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.quote {
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  font-family: 'Amatic SC', cursive;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.quote-line{
+  font-size: 90px;
+}
+
+.quote-author{
+  position: absolute;
+  top: 70px;
+  font-size: 50px;
+}
+
+.comic {
+  position: absolute;
+  top: 10px;
+  left: 70%;
+  height: auto;
+  display: none;
+}
+
+.WhoWhat{
+
+  font-family: 'Coming Soon', cursive;
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  width: 30%;
+
+}
+
+.Who_we_are {
+z-index: 1000;
+color: black;
+padding-right: 20px;
+display: inline;
+}
+
+.teamphoto1{
+
+}
+
+.outreach1{
+
+
+}
+
+.What_we_do {
+z-index: 1000;
+color: black;
+display: inline;
+}

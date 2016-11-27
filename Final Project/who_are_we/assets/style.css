@@ -1,0 +1,101 @@
+
+.parallax {
+    position: fixed;
+}
+
+.bottom {
+    /* YOUR CODE HERE */
+    position: relative;
+    top: 500px;
+}
+
+
+/* other styles below */
+.parallax {
+    /* other styling */
+    height: 500px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/teamphoto1.jpg);
+    background-size: 100%;
+
+}
+
+
+ .container {
+    margin: 0 auto;
+    width: 100%;
+}
+.content {
+    background: #eee;
+    height: 1300px;
+    line-height: 24px;
+    padding: 20px 35px;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-family: 'Coming Soon', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content{
+
+}
+
+.write-up{
+    font-family: 'Coming Soon', cursive;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.teamphotos{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.leadership{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  font-size: 40px;
+}
+
+.leads{
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+  display: inline-block;
+    padding: 5px;
+    width: 32%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.name {
+  padding-bottom: -3px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.position{
+  font-size: 25px;
+}
+
+.photo{
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.pagelink {
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+}

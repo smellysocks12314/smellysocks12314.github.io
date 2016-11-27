@@ -1,0 +1,210 @@
+
+.parallax {
+    position: fixed;
+}
+
+.bottom {
+    /* YOUR CODE HERE */
+    position: relative;
+    top: 500px;
+}
+
+
+/* other styles below */
+.parallax {
+    /* other styling */
+    height: 500px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/outreach1.jpg);
+    background-size: 100%;
+
+}
+
+
+ .container {
+    margin: 0 auto;
+    width: 100%;
+}
+.content {
+    background: #eee;
+    height: 700px;
+    line-height: 24px;
+    padding: 20px 35px;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-family: 'Coming Soon', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content{
+
+}
+
+.write-up{
+    font-family: 'Coming Soon', cursive;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.teamphotos{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.activities{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  font-size: 40px;
+}
+
+.leads{
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+  display: inline-block;
+    padding: 5px;
+    width: 32%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.name {
+  padding-bottom: -3px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.position{
+  font-size: 25px;
+}
+
+.photo{
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagelink {
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+}
+
+
+#modal-container {
+  font-family: 'Coming Soon', cursive;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  display: none
+}
+
+#modal-container-overseas {
+  font-family: 'Coming Soon', cursive;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  display: none
+}
+
+#modal-container-stargazing {
+  font-family: 'Coming Soon', cursive;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  display: none
+}
+
+
+#modal-overlay {
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box {
+  width: 800px;
+  height: 450px;
+  background-color: #eee;
+  position: absolute;
+  top: calc(15%);
+  left: calc(20%);
+  z-index: 100;
+  border-radius: 10%;
+
+}
+/* Question 3 */
+
+.header{
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+  position: relative;
+  top: 1%;
+  left: 40%;
+}
+
+#button-container {
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  position: absolute;
+  right: 30px;
+
+}
+
+
+.children {
+  padding: 5px;
+  cursor: pointer;
+  background-color: #eee;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.input  {
+border: 5px solid white;
+padding: 10px;
+background: transparent;
+margin: 0px;
+margin-bottom: 20px;
+margin-left: 7.5px;
+width: 460px;
+font-size: 12px;
+font-weight: 700;
+color: white;
+}
+
+.input::-webkit-input-placeholder  {
+color: white;
+}
+
+#modalphoto {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#writeup{
+  text-align: justify;
+margin-left: auto;
+margin-right: auto;
+  width: 50%;
+
+}
